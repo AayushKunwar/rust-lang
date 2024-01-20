@@ -4,6 +4,10 @@ use std::io;
 
 fn main() {
     println!("Gess the number!");
+    let mut x = 5;
+    println!("The value of x is: {x}");
+    x = 6;
+    println!("The value of x is: {x}");
 
     let secret_number = rand::thread_rng().gen_range(1..=100);
 
