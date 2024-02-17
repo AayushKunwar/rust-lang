@@ -1,4 +1,6 @@
 pub fn add(left: usize, right: usize) -> usize {
+    let mut _foo = 69;
+    _foo += 1;
     left + right
 }
 
